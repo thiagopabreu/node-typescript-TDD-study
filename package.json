@@ -1,0 +1,26 @@
+{
+  "name": "typescript-tdd",
+  "version": "1.0.0",
+  "description": "Typescript Node.JS Api TDD",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@types/module-alias": "^2.0.1",
+    "module-alias": "^2.2.2"
+  }
+}
